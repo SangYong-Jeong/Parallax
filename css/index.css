@@ -1,0 +1,78 @@
+html, body {font-family: 'Lato', sans-serif; font-size: 15px; color: #888;}
+
+/*********** header-wrapper ************/
+.header-wrapper {position: fixed; width: 100%; z-index: 999; top: 0; left: 0; transition: all .5s;
+}
+.header-wrapper.active {background-color: #fff; color: #000; box-shadow: 0 0 10px rgba(0, 0, 0, .6);}
+.header-wrapper .navi-wrap {float: left;}
+.header-wrapper .navi-wrap .navi {float: left; padding: 14px 16px; cursor: pointer;}
+.header-wrapper .navi-wrap .navi:hover {background-color: #ccc; color: #000;}
+.header-wrapper .search-wrap {float: right; padding: 14px 16px; cursor: pointer;}
+.header-wrapper .search-wrap:hover {background-color: #f20; color: #fff;}
+
+/*********** main-wrapper ************/
+.main-wrapper {display: table; width: 100%; height: 100vh; background-image: url('../img/parallax1.jpg');
+background-position: center; background-size: cover; background-attachment: fixed; opacity: .75; margin-bottom: 12px;}
+.main-wrapper > div {display: table-cell; text-align: center; vertical-align: middle;}
+.main-wrapper h1.logo {background-color: #000; color: #fff; letter-spacing: 10px; display: inline-block;
+padding: 14px 24px; font-size: 24px;}
+
+/*********** about-wrapper ************/
+.about-wrapper .name-wrap {padding: 24px; margin-bottom: 40px;}
+.about-wrapper .name-wrap .name-wp {width: 50%; float: left; padding-right: 3%;}
+.about-wrapper .name-wrap .name-wp .imgs {overflow: hidden;}
+.about-wrapper .name-wrap .name-wp img {opacity: .5; transition: all .5s;}
+.about-wrapper .name-wrap .name-wp img:hover {opacity: 1; transform: scale(1.2);}
+.about-wrapper .name-wrap .name-wp .name {margin-bottom: 50px; text-align: center; font-weight: bold;}
+.about-wrapper .name-wrap .name-wp .name .fa {margin-right: 12px;}
+.about-wrapper .name-wrap .content-wp {float: right; width: 50%; line-height: 1.9; padding-left: 2%;}
+
+.about-wrapper .wrapper .title2 {font-style: normal; font-size: 18px; margin-bottom: 48px;}
+
+.about-wrapper .ability-wp {margin-bottom: 20px;}
+.about-wrapper .ability-wp .ability {font-size: 16px; letter-spacing: 10px; margin-bottom: 24px;}
+.about-wrapper .ability-wp .ability .fa {width: 20px;}
+.about-wrapper .ability-wp .percent-wp {background-color: #ddd;}
+.about-wrapper .ability-wp .percent-wp .percent {background-color: #666; color: #fff;
+padding: 10px 12px; text-align: center;}
+.about-wrapper .ability-wrap > .ability-wp:nth-child(1) .percent-wp .percent {width: 90%;}
+.about-wrapper .ability-wrap > .ability-wp:nth-child(2) .percent-wp .percent {width: 85%;}
+.about-wrapper .ability-wrap > .ability-wp:nth-child(3) .percent-wp .percent {width: 75%;}
+
+/*********** pf-wrapper ************/
+.pf-wrapper .customer-wrap {background-color: #666; color: #fff; padding: 40px 0;}
+.pf-wrapper .customer-wrap .customer-wp {float: left; width: 25%;}
+.pf-wrapper .customer-wrap h2.title {margin-bottom: 14px;}
+.pf-wrapper .customer-wrap h3.title {font-style: normal; margin-bottom: 0;}
+
+.title-wrap-pf {background-image: url('../img/parallax2.jpg'); }
+
+.pf-wrapper .img-wrap {margin-bottom: 50px;}
+.pf-wrapper .img-wrap .imgs {width: 25%; float: left; padding: 1%; overflow: hidden;}
+.pf-wrapper .img-wrap .imgs img {transition: all .5s; cursor: pointer;}
+.pf-wrapper .img-wrap .imgs img:hover {transform: scale(1.2); opacity: .7;}
+.pf-wrapper .bt-wrap {text-align: center;}
+
+/*********** contact-wrapper ************/
+.contact-wrapper .title-wrap-contact {background-image: url("../img/parallax3.jpg");}
+.contact-wrapper .map-wrap .map-wp {float: left; width: 33%; padding: 0 1.5%;}
+.contact-wrapper .map-wrap .map-wp .map-img {border-radius: 5px; overflow: hidden;}
+.contact-wrapper .map-wrap .contact-wp {float: right; width: 67%; padding: 3% 3%;}
+.contact-wrapper .map-wrap .contacts {margin-bottom: 24px;}
+.contact-wrapper .map-wrap .contact {font-size: 18px; font-weight: 400; margin-bottom: 14px;}
+.contact-wrapper .map-wrap .contact .fa {width: 35px;}
+.contact-wrapper .contact-wp h4.title {margin-bottom: 24px;}
+.contact-wrapper .input-wp .input:nth-child(1) {width: 49%; float: left; margin-bottom: 5px;}
+.contact-wrapper .input-wp .input:nth-child(2) {width: 49%; float: right; margin-bottom: 5px;}
+.contact-wrapper .input-wp .input:nth-child(3) {width: 100%; margin-bottom: 16px;}
+.contact-wrapper .bt-send {float: right;}
+
+/*********** footer-wrapper ************/
+.footer-wrapper {background-color: #000; opacity: .6; text-align: center; padding: 80px;}
+.footer-wrapper:hover {opacity: 1;}
+.footer-wrapper .bt-top {margin-bottom: 24px;}
+.footer-wrapper .bt-top .fa {margin-right: 12px;}
+.footer-wrapper .sns-wrap {color: #fff; font-size: 22px; margin-bottom: 24px;}
+.footer-wrapper .sns-wrap .sns {display: inline-block;}
+.footer-wrapper .copyright {color: #fff;}
+.footer-wrapper .copyright > a {text-decoration: underline;}
